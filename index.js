@@ -62,9 +62,11 @@ const onMenuClickHandler = (e) => {
   e.preventDefault()
   if (showMenu) {
     navLinksEl.style.right = "0"
+    navLinksEl.style.width = "100%"
     navMenuBtnEl.classList.add("rotate")
   } else {
     navLinksEl.style.right = "-100%"
+    navLinksEl.style.width = "0"
     navMenuBtnEl.classList.remove("rotate")
   }
   showMenu = !showMenu

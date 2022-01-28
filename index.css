@@ -481,7 +481,7 @@ body {
           flex-direction: column;
           justify-content: center;
           background-image: linear-gradient(to right bottom, var(--color-primary-light), var(--color-primary-dark));
-          width: 100%;
+          width: 0;
           height: 100vh;
           top: 0;
           right: -100%;
